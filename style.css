@@ -1,0 +1,158 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  width: 100vw;
+  height: 100vh;
+  background-color: #C3C3C3;
+}
+
+.link{
+  border: 8px solid #979797;
+  padding: 5vw;
+  margin: 5vw -5vw;
+}
+
+.profile .link{
+  margin: 3vw -3vw;
+}
+
+.left_nav{
+  background-color: #fff;
+  height: 80vh;
+  width: 20vw;
+  margin-left: 12vw;
+  display: inline-block;
+  float: left;
+  position: relative;
+  z-index: 2;
+}
+
+.link a{
+  text-decoration: none;
+  font-family: "Avenir Next";
+  color: #43656A;
+  font-size: 40px;
+  display: inline-block;
+  margin: 5vh 8vh 5vh 10vh;
+}
+
+.link img{
+  width:15vw;
+  height: auto;
+}
+
+.sns img{
+  width: 2vw;
+  height: auto;
+
+}
+
+.profile .left_nav{
+  height: 100vh;
+  margin-left: 5vw;
+}
+
+.profile a{
+  margin: 3vh 8vh 3vh 10vh;
+}
+
+.sns{
+  margin-left: 3vw;
+}
+
+.sns a{
+    margin: 0 2vw 0 0;
+}
+
+.profile .link{
+  padding: 3vw 3vw 2vw 3vw;
+}
+
+.sns a:hover .Desktop {
+  fill: pink;
+}
+
+#facebook{
+  fill: #43656A;
+}
+
+.head_pic{
+  overflow: hidden;
+  padding: 20vh 3vw;
+  float: left;
+  z-index: 0;
+}
+
+.head_pic img{
+  width: 30vw;
+  height: 30vw;
+}
+
+.logo{
+  background-color: #fff;
+  float: left;
+  height: 80vh;
+  width: 20vw;
+  margin-top: 20vh;
+}
+
+.logo img{
+  margin: 10vh 0 0 -5vw;
+  width: 25vw;
+  height: auto;
+  border: 8px solid #979797;
+  padding: 5vw 3vw 5vw 3vw;
+}
+
+    .link a{
+        letter-spacing: 0;
+    }
+    .link a:hover,
+    .link a:active {
+      font-weight: 600;
+    }
+    .link a:after,
+    .link a:before {
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+        border: 1px solid rgba(255, 255, 255, 0);
+        bottom: 0px;
+        content: " ";
+        display: block;
+        margin: 0 auto;
+        position: relative;
+        -webkit-transition: all 280ms ease-in-out;
+        transition: all 280ms ease-in-out;
+        width: 0;
+    }
+    .link a:hover:after,
+    .link a:hover:before {
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+        border-color: #979797;
+        -webkit-transition: width 350ms ease-in-out;
+        transition: width 350ms ease-in-out;
+        width: 70%;
+    }
+    .link a:hover:before {
+        bottom: auto;
+        top: 0;
+        width: 70%;
+    }
+
+    .content img{
+      width: 25vw;
+      height: auto;
+      padding: 10vh 25vw 5vh 25vw;
+    }
+
+.content h1{
+  display: inline-block;
+  padding: 4vw 10vw 10vw 20vw;
+  font-family: "Avenir Next";
+  font-weight: 400;
+  color: #030303;
+}
