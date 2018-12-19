@@ -1,0 +1,150 @@
+@font-face{
+   font-family: "Gokuboso";
+  src: url("fonts/chogokubosogothic_5.ttf")
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  width: 100vw;
+  height: 100vh;
+  background-color: #C3C3C3;
+}
+
+
+.link a{
+  text-decoration: none;
+  font-family: "Avenir Next";
+  color: #43656A;
+  font-size: 40px;
+}
+
+.link img{
+  width:400px;
+  height: auto;
+  margin-left: 40px;
+}
+
+.link_profile{
+  margin: 100px 150px;
+}
+
+.link_works{
+  margin: 100px 150px;
+}
+
+.sns img{
+  width: 30px;
+  height: auto;
+
+}
+
+.left_nav{
+  margin: 5em;
+}
+
+.profile a{
+  margin: 3vh 8vh 3vh 10vh;
+}
+
+.sns{
+    margin-left: 130px;
+}
+
+.sns a{
+    margin: 0 2vw 0 0;
+}
+
+.sns a:hover .Desktop {
+  fill: pink;
+}
+
+#facebook{
+  fill: #43656A;
+}
+
+.head_pic{
+  overflow: hidden;
+  padding: 20vh 3vw;
+  float: left;
+  z-index: 0;
+}
+
+.head_pic img{
+  width: 30vw;
+  height: 30vw;
+}
+
+.logo{
+  background-color: #fff;
+  float: left;
+  height: 80vh;
+  width: 20vw;
+  margin-top: 20vh;
+}
+
+.logo img{
+  margin: 10vh 0 0 -5vw;
+  width: 25vw;
+  height: auto;
+  border: 8px solid #979797;
+  padding: 5vw 3vw 5vw 3vw;
+}
+
+.link a:hover,
+.link a:active {
+  font-weight: 600;
+}
+.link a:after,
+.link a:before {
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    border: 1px solid rgba(255, 255, 255, 0);
+    bottom: 0px;
+    content: " ";
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    -webkit-transition: all 280ms ease-in-out;
+    transition: all 280ms ease-in-out;
+    width: 0;
+}
+.link a:hover:after,
+.link a:hover:before {
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    border-color: #979797;
+    -webkit-transition: width 350ms ease-in-out;
+    transition: width 350ms ease-in-out;
+    width: 70%;
+}
+.link a:hover:before {
+    bottom: auto;
+    top: 0;
+    width: 70%;
+}
+
+.content img{
+  width: 30vw;
+  height: auto;
+  margin: 10vw 35vw 5vw;;
+}
+
+.content h1{
+  width: 100vw;
+  font-size: 2vw;
+  text-align: center;
+  font-family: "Avenir Next";
+  font-weight: 400;
+  color: #fff;
+}
+
+.content p{
+  font-family: 'Gokuboso';
+  font-size: 1.5vw;
+  color: #000;
+
+}
